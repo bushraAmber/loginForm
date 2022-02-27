@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingEnd="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_email"
+            android:drawableLeft="@drawable/ic_baseline_email"
+            android:drawableTint="@color/purple_500"
+            android:text="Enter Email"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter valid Email here"
+            android:inputType="textEmailAddress"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_baseline_vpn_key"
+            android:drawableLeft="@drawable/ic_baseline_vpn_key"
+            android:drawableTint="@color/purple_500"
+            android:text="Enter Password"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter valid Password here"
+            android:inputType="textPassword"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingEnd="30dp">
+
+        <Button
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/purple_500"
+            android:text="login"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/INS1" />
+        <View
+            android:layout_width="20dp"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/Google1" />
+        <View
+            android:layout_width="20dp"
+            android:layout_height="150dp" />
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/Face1" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
